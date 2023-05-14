@@ -1,9 +1,3 @@
-using System;
+string phrase = "Hello Mr.White";
+System.Console.WriteLine(phrase.Length);
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World!");
-    }
-}
