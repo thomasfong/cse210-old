@@ -91,6 +91,8 @@ class Program
             Console.WriteLine("3. Load");
             Console.WriteLine("4. Save");
             Console.WriteLine("5. Quit");
+            Console.WriteLine("What would you like to do?");
+
             string choice =Console.ReadLine();
             Console.WriteLine();
 
@@ -130,7 +132,7 @@ class Program
                 case "5":
                 Console.WriteLine("Exiting program......");
                 return;
-                
+
             default:
                 Console.WriteLine("Invalid choice. Try again.");
                 Console.WriteLine();
